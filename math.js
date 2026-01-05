@@ -17,4 +17,5 @@ function mult(a,b){
     return multi;
 }
 
-module.exports = {add,sub};
+export {add,sub};
+export default mult;
